@@ -2,12 +2,13 @@ import numpy as np
 import cv2 
 import matplotlib.pyplot as plt 
 
+# instead of canny function
+
 
 # defining the canny detector function 
-
 # here weak_th and strong_th are thresholds for 
 # double thresholding step 
-# instead of canny function
+
 def Canny_detector(img, weak_th = None, strong_th = None): 
 	
 	# conversion of image to grayscale 
