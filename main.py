@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 
 # instead of canny function
 
-
 # defining the canny detector function 
 # here weak_th and strong_th are thresholds for 
 # double thresholding step 
